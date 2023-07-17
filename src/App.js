@@ -75,6 +75,15 @@ function App() {
         <p>It was based on a crisis that we had all been having on the apprenticeship, as the problem was so hard. So it was in honour of, and dedicated to, my friend Robert on the apprenticeship!</p>
         <p>I can neither confirm nor deny that any Chat GPT was used - but even then it was still such a big achievement for me.</p>
       </article>
+
+      <article class = 'entry' id='day4'>
+        <h2>Monday the 17th of July 2023</h2>
+        <p>So today was very very special indeed to me.</p>
+        <p>With the permission of my coach on the apprenticeship, I have taking TypeScript lessons on Codecademy during the afternoon of my bootcamp.</p>
+        <p>Today I learned looooooooooooooooads!</p>
+        <p>Here is exactly what I learned:</p>
+      </article>
+
       </body>
       
     </div>
