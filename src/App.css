@@ -14,18 +14,73 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fc72fa;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+#susanna-1 {
+  height: 800px;
+  border-radius: 50px;
+}
+
+header, h1, .entry {
+  padding: 50px;
+  margin: 0px;
+}
+
+h1 {
+  background-color: #fdaffc;
+  font-size: 4.5rem;
+}
+
+h2{ 
+  text-decoration: underline;
+}
+
+ul{
+  
+list-style-position: inside;
+}
+
+#day1 {
+  background-color: #fec9fe;
+}
+
+#day2 {
+  background-color: #feddfe;
+}
+
+#day3 {
+  background-color: #fecefd;
+}
+
+.entry {
+  font-size: 1.5rem;
+}
+
+code {
+  background-color: white;
+  color: black;
+}
+
+#tsloop, #jsloop {
+  border-radius: 15px;
+}
+.song-of-the-day {
+  font-size: 1rem;
+}
+.song-of-the-day img {
+  height: 230px;
 }
 
 @keyframes App-logo-spin {

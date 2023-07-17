@@ -1,25 +1,82 @@
 import logo from './logo.svg';
 import './App.css';
+import susanna from './images/susanna.png';
+import jsloop from './images/jsloop.png';
+import tsloop from './images/tsloop.png';
+import everythingiwanted from './images/everythingiwanted.png'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+      
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         Hello and welcome to Susanna's super duper and mega incredible React app.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          Here I am going to put a log of all the super cool things I have been learning and doing on my bootcamp.
+        </p>
+        <p>
+          If only I knew how to put each section into a new component.
+        </p>
+        <img src={susanna} id="susanna-1" alt="A close-up selfe of a smiling blonde woman with blue eyes in a green shirt sitting on a train" />
       </header>
+      <body>
+      <h1>Susanna's Epic Learning Diary</h1>
+      <article class = 'entry' id='day1'>
+        <h2>Wednesday the 12th of July 2023</h2>
+       <p>Today, I have been learning about loops in TypeScript</p>
+       <p>It turns out that loops in TypeScript are extremely similar to those in JavaScript.</p> 
+       <ul>
+        <li>Definite loops</li>
+        <li class="indented">These are like the <code>for</code> loops</li>
+        <li>Indefinite loops</li>
+        <li class="indented">These are like the <code>while</code> loops and the <code>do...while</code> loops</li>
+       </ul>
+       <section id="loop-differences">
+        <h3>Here is an example of the difference between JavaScript and TypeScript in a <code>for</code> loop.</h3>
+        <p>As a reminder, here is a good old JavaScript <code>for</code> loop:</p>
+        <img src={jsloop} id="jsloop" alt="A code example of a for loop in JavaScript taken from Chat GPT." />
+        <p>And here is the same <code>for</code> loop but in TypeScript:</p>
+        <img src={tsloop} id="tsloop" alt="A code example of a for loop in TypeScript taken from Chat GPT." />
+        <p>As you can see, the variable <code>i</code> is declared to be a number.</p>
+        <p>This is a nice little intro to TS for me: I can see that variable declaration might look a little something like this:</p>
+          <ul>
+            <li>Put <code>let</code> or <code>const</code></li>
+            <li>Put the name of the variable</li>
+            <li>Then put a colon directly after</li>
+            <li>Then put a space and the name of the data type with no quotation marks</li>
+            <li>Then put an equals, and then the value of the variable, as per usual</li>
+          </ul>
+        <p>According to some reading I've been doing, TypeScript would also tell you if you were to try and assign the variable <code>i</code> to a constant.</p>
+        </section>
+      </article>
+      <article class = 'entry' id='day2'>
+      <h2>Thursday the 13th of July 2023</h2>
+        <section class="song-of-the-day">
+          <h4>Today's song of the day is:</h4>
+          <p>"Everything I Wanted" by Billie Eilish.</p>
+          <img src={everythingiwanted} alt="A cubist painting of a suspension bridge in pastel colors. Album artwork for Billie Eilish's 'everything i wanted'." />
+        </section>
+        <h3>Erm so what have I been learning about TypeScript today?</h3>
+        <h4>Well, I started a 50 minute TypeScript video...</h4>
+        <ul>
+          <li>It got me to install TypeScript using the command line</li>
+          <li>It talked about TypeScript's growing popularity</li>
+          <li>I ran my very first 'Hello World' programme in TypeScript</li>
+        </ul>
+      </article>
+
+      <article class = 'entry' id='day3'>
+      {/*<h2>Friday the 14th of July 2023</h2>*/}
+      </article>
+      </body>
+      
     </div>
   );
 }
+
+
 
 export default App;
