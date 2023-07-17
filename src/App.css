@@ -65,9 +65,12 @@ list-style-position: inside;
 }
 
 #day4 {
-  background-color: #ffdae4;
+  background-color: #deafdd;
 }
 
+#day5 {
+  background-color: #eebeed;
+}
 
 .entry {
   font-size: 1.5rem;
