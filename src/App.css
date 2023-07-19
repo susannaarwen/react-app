@@ -72,6 +72,14 @@ list-style-position: inside;
   background-color: #eebeed;
 }
 
+#day6{
+  background-color: #ffe2d5;
+
+  #day6 {
+    background-color: #f6c9d3;
+  }
+}
+
 .entry {
   font-size: 1.5rem;
 }
