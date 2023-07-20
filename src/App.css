@@ -81,6 +81,10 @@ list-style-position: inside;
   background-color: #ff64d0;
 }
 
+#lana1 {
+  height: 400px;
+}
+
 .entry {
   font-size: 1.5rem;
 }
