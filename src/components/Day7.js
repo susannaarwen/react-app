@@ -14,3 +14,5 @@ function Day7 () {
      
     )
 };
+
+export default Day7;
