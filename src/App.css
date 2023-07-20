@@ -75,9 +75,10 @@ list-style-position: inside;
 #day6{
   background-color: #ffe2d5;
 
-  #day6 {
-    background-color: #f6c9d3;
-  }
+}
+
+#day7 {
+  background-color: #ff64d0;
 }
 
 .entry {
