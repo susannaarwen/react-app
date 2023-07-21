@@ -38,6 +38,18 @@ header, h1, .entry {
   margin: 0px;
 }
 
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list li {
+  padding: 10px;
+}
+
 h1 {
   background-color: #fdaffc;
   font-size: 4.5rem;
