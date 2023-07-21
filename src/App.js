@@ -9,7 +9,7 @@ import Day4 from './components/Day4';
 import Day5 from './components/Day5';
 import Day6 from './components/Day6';
 import Day7 from './components/Day7';
-
+import Nav from './components/Nav';
 import AboutMePage from './components/About-Me';
 import ExperiencePage from './components/Experience';
 
@@ -21,25 +21,13 @@ import {
 
 const MainPage = () => {
   return (
+    <>
+    <div>
+      <Nav />
+    </div>
    <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-          <div>
-            <nav>
-              {/* Link components allow you to create links to other pages */}
-              <ul>
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                  <Link to="/about">About Me</Link>
-                </li>
-                <li>
-                  <Link to="/experience">My Experience</Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
 
         <Intro />
       </header>
@@ -56,6 +44,7 @@ const MainPage = () => {
         <Day7 />
       </body>
     </div>
+    </>
   )
 }
 
