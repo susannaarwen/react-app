@@ -47,12 +47,15 @@ header, h1, .entry {
   display: flex;
   justify-content: center;
   background-color: #fcb7e5;
+  justify-content: space-around;
 }
 
 .nav-list {
   display: flex;
   justify-content: center;
   background-color: #fcb7e5;
+  list-style-type: none;
+  font-size: 30px;
 }
 
 .nav-list li {
@@ -100,6 +103,10 @@ list-style-position: inside;
 
 #day7 {
   background-color: #ff64d0;
+}
+
+#day8 {
+  background-color: #feddfe;
 }
 
 #lana1 {

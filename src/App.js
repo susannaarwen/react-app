@@ -9,6 +9,7 @@ import Day4 from './components/Day4';
 import Day5 from './components/Day5';
 import Day6 from './components/Day6';
 import Day7 from './components/Day7';
+import Day8 from './components/Day8';
 import Nav from './components/Nav';
 import AboutMePage from './components/About-Me';
 import ExperiencePage from './components/Experience';
@@ -42,6 +43,7 @@ const MainPage = () => {
         <Day5 />
         <Day6 />
         <Day7 />
+        <Day8 />
       </body>
     </div>
     </>
